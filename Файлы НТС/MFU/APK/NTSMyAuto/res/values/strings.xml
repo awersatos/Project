@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">НТС Моё Авто</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+
+    <string name="menu_settings">Настройки</string>
+    <string name="user_profile">АНКЕТА</string>
+    <string name="car_profile">МОЁ АВТО</string>
+    <string name="callback">ОСТАВИТЬ ЗАЯВКУ</string>
+    <string name="ads">Реклама</string>
+    <string name="web">Интернет</string>
+    <string name="media">Медиа</string>
+    <string name="nav">Навигация</string>
+    <string name="camera">Регистрация</string>
+    <string name="diag">Диагностика</string>
+    <string name="skype">Skype</string>
+    <string name="bluetooth">Bluetooth</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">Поиск устройств ...</string>
+    <string name="select_device">Выберите устройство</string>
+    <string name="none_paired">Нет связанных устройств</string>
+    <string name="none_found">Нет обнаруженных устройств</string>
+    <string name="title_paired_devices">Связанные устройства</string>
+    <string name="title_other_devices">Доступные устройства</string>
+    <string name="button_scan">Сканировать</string>
+    <string name="cancel">ОТМЕНА ЗАЯВКИ</string>
+    <!--  -->
+    <string name="title_activity_user_profile">Анкета</string>
+    <string name="title_activity_car_profile">Автомобили</string>
+	<!-- CarProfile  -->
+	<string name="menu_rebind_device">Привязать планшет</string>
+	<string name="car_name">Марка</string>
+	<string name="device_id">ID планшета</string>
+	<string name="spinner_cars">Выберите автомобиль ...</string>
+	<!-- UserProfile -->
+	<string name="menu_refresh">Обновить</string>
+	<string name="surname">Фамилия</string>
+	<string name="given_name">Имя</string>
+	<string name="middle_name">Отчество</string>
+	<string name="phone1">Телефон №1</string>
+	<string name="phone2">Телефон №2</string>
+	<string name="phone3">Телефон №3</string>
+	<string name="blood">Группа крови</string>
+	<string name="system_deseases">Заболевания</string>
+	<string name="allergies">Аллергии</string>
+	<string name="address">Адрес</string>
+</resources>

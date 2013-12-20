@@ -1,0 +1,332 @@
+/* Style 1 */
+
+a,
+h2,
+.componentheading {
+/*	color: #178FC0;*/
+
+}
+
+/* @group Structure */
+
+#logo {
+	background: url(../images/style1/logo.png) 0 0 no-repeat;
+	margin-top: 12px;
+}
+
+#showcase {
+	background: #073457 url(../images/style1/showcase-bg.png) 0 0 repeat-x;
+}
+
+#showcase2 {
+/*	background: url(../images/style1/showcase-promo.jpg) 50% 0 no-repeat; */
+}
+
+#featured-mod {
+	background: url(../images/style1/featuremod-bg.png) 50% 0 repeat-x;
+}
+
+#featured-mod2 {
+	background: url(../images/style1/featuremod-bg2.jpg) 50% 0 no-repeat;
+}
+
+/* @end */
+
+/* @group Horizontal Menu */
+
+#horiz-menu {
+	background: url(../images/style1/horiz-menu-bg.png) 0 0 repeat-x;
+}
+
+#horiz-menu ul ul {
+	background: #031421;
+	border-left: 1px solid #094369;
+	border-right: 1px solid #094369;
+	border-bottom: 1px solid #094369;
+}
+
+#horiz-menu ul ul ul {
+	border-top: 1px solid #094369;
+}
+
+#horiz-menu li a {
+	background: url(../images/style1/horiz-menu-div.png) 100% 50% no-repeat;
+}
+
+#horiz-menu a,
+#horiz-menu li.active a {
+	color: #fff;
+}
+
+#horiz-menu li.active a {
+	color: #18A7E1;
+}
+
+#horiz-menu a:hover {
+	color: #18A7E1;
+}
+
+#horiz-menu ul ul li a,
+#horiz-menu ul li.active.parent ul a {
+	background: url(../images/style1/dropdown-arrow.png) 10px 50% no-repeat;
+	color: #18A7E1;
+}
+
+/* @end */
+
+/* @group Main Menu */
+
+a.mainlevel {
+	background: url(../images/style1/vertmenu-bg.png) 0 0 no-repeat;
+	color: #666;
+}
+
+a#active_menu.mainlevel,
+a.mainlevel:hover {
+	color: #178FC0;
+}
+
+a.sublevel:hover,
+a#active_menu.sublevel {
+	color: #178FC0;
+}
+
+a.sublevel {
+	color: #666;
+}
+
+/* @end */
+
+/* @group Sub Menu */
+
+ul.menu a {
+	background: url(../images/style1/vertmenu-bg.png) 0 0 no-repeat;
+	color: #666;
+}
+
+ul.menu li.active a,
+ul.menu li a:hover,
+ul.menu li.parent li.active a,
+ul.menu li.parent li.parent li.active a,
+ul.menu li.parent li.active a:hover,
+ul.menu li.parent li.parent li.active a:hover,
+ul.menu li.active a:hover {
+	color: #18A7E1;
+}
+
+ul.menu li.parent li a,
+ul.menu li.parent li.parent li a {
+	color: #666;
+}
+
+/* @end */
+
+.rok-content-rotator h2 a:hover,
+.rok-content-rotator h2 a.active,
+#rokslide-toolbar li.current {
+	color: #178FC0;
+}
+
+/* @group Typography */
+
+ul.bullet-1 li {
+	background: url(../images/style1/dropdown-arrow.png) 0 3px no-repeat;
+}
+
+ul.bullet-2 li {
+	background: url(../images/style1/bullet-2.png) 0 3px no-repeat;
+}
+
+ul.bullet-3 li {
+	background: url(../images/style1/bullet-3.png) 0 3px no-repeat;
+}
+
+ul.bullet-4 li {
+	background: url(../images/style1/bullet-4.png) 0 3px no-repeat;
+}
+
+ul.bullet-5 li {
+	background: url(../images/style1/bullet-5.png) 0 3px no-repeat;
+}
+
+.important2 {
+	border: 1px solid #178FC0;
+}
+
+span.highlight-color {
+	background: #178FC0;
+	color: #fff;
+}
+
+span.important-title2,
+span.number-color,
+blockquote.color2,
+span.dropcap-color {
+	color: #178FC0;
+}
+
+/*form*/
+
+form {
+/*width: 500px;  задаем ширину формы, чтобы сработал overflow */
+overflow: hidden; /* обрезаем выступы за форму (в частности в ие6 неправильно расчитанный width для div) */
+padding: 2px; /* небольшой отступ чтобы не обрезалась подсветка input в фокусе в Safari и Chrome */
+}
+form .formLine {
+float: left; /* чтобы не было проблем с отступами между блоками */
+width: 100%; /* чтобы блоки не встраивались в одну строку */
+margin-bottom: 5px; /* расстояние между блоками */
+}
+form label {
+float: left; /* делаем метки плавающими и фиксированной ширины чтобы выровнять их по одному уровню */
+/*width: 70px;*/
+text-align: right;
+position: relative; /* выравниваем тексты меток и полей по одному уровню */
+top: 2px; /* отступ сверху подбираем в зависимости от размера шрифта и дизайна полей */
+margin-right: 5px; /* чтобы к меткам не прилипали поля */
+}
+form input[type=text], form input[type=password] {/* оформление для полей типа text и password */
+width: 200px;
+background: #fff; /* обязательно указываем цвет фона (или ставим его none), т.к. в браузере могут быть свои значения по умолчанию */
+border: 1px solid #7f9db9; /* цвет бордюра */
+height: 20px; /* явно задаем высоту, для кроссбраузерности */
+}
+form .formText {/* класс для ие6, который не понимает свойства по типам селекторов */
+width: 200px;
+background: #fff;
+border: 1px solid #7f9db9;
+height: 20px;
+}
+form input[type=submit] {/* оформление для кнопки submit */
+margin-left: 75px;
+cursor: pointer; /* меняем указатель для кнопки */
+}
+form .formSubmit {/* класс для ие6 */
+margin-left: 65px;
+cursor: pointer;
+width: auto;
+}
+* html input {/* хак для ие6, котрый поможет ему понять типы селекторов */
+z-index: expression(
+runtimeStyle.zIndex = 1,
+type == "text" ? (className = "formText") : 0,
+type == "password" ? (className = "formText") : 0,
+type == "submit" ? (className = "formSubmit") : 0
+)
+}
+form.support textarea{
+width: 196px;
+background: white;
+border: 1px solid #7F9DB9;
+}
+
+form .formLine.file {
+text-align: center;
+}
+
+form#responce {
+width: 210px; /* задаем ширину формы, чтобы сработал overflow */
+overflow: hidden; /* обрезаем выступы за форму (в частности в ие6 неправильно расчитанный width для div) */
+padding: 2px; /* небольшой отступ чтобы не обрезалась подсветка input в фокусе в Safari и Chrome */
+}
+
+form#responce input[type=text], form input[type=password]{
+width: 130px;
+}
+
+form#responce textarea{
+width: 126px;
+}
+form#responce div.file label{
+width: 210px;
+text-align: center;
+}
+
+h4.responce {
+text-align: center;
+margin-bottom: 0;
+}
+
+div.block.responce {
+overflow: hidden;
+margin-bottom: 40px;
+margin-top: 17px;
+}
+
+div.block.responce div.name{
+margin-bottom: 10px;
+}
+
+div.block.responce img{
+float: left;
+margin-right: 15px;
+}
+
+
+/*pager*/
+
+div.paging {
+text-align: center;
+}
+
+ul.pageList li {
+display: inline;
+list-style: none;
+}
+
+ul.pageList li a {
+color: #222222;
+font-size: 13px;
+font-family: Tahoma;
+}
+
+ul.pageList li.first{
+color: #222222;
+font-size: 13px;
+font-family: Tahoma;
+}
+
+ul.pageList li.last{
+color: #222222;
+font-size: 13px;
+font-family: Tahoma;
+}
+
+ul.pageList li{
+border-left: 1px solid #222;
+padding-left: 3px;
+}
+
+ul.pageList li.first{
+border: none;
+}
+
+ul.pageList li:first-child {
+border: none;
+}
+
+h4.responce, h4.request {
+text-transform: uppercase;
+color: #000;
+font-size: 13px;
+font-family: verdana;
+}
+
+h4.request {
+padding-left: 76px;
+margin-bottom: 0;
+}
+
+.module-hilite3 a {
+text-decoration: underline;
+color: #CC7A00;
+}
+
+div.block.news {
+margin-bottom: 14px;
+}
+
+div.intro {
+font-style: italic;
+}
+/* @end */

@@ -1,0 +1,498 @@
+html, body {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+background: url(../img/bg_top.jpg) top left repeat-x;
+font-family: "Trebuchet MS", sans-serif;
+font-size: 14px;
+line-height: 1.5;
+}
+
+img {border:none;}
+
+a {
+color: #336699;
+}
+
+	a:hover {
+	text-decoration: none;
+	}
+	
+table {
+border: 0px;
+border-collapse: collapse;
+}
+
+table td {
+padding: 0px;
+}
+
+.clear {
+clear: both;
+}
+
+h1 {
+font-size: 30px;
+margin-left: 40px;
+}
+
+#bg_left_top {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+#bg_right_top {
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+#outer_container {
+background: url(../img/bg_left.jpg) top left repeat-y;
+}
+
+#inner_container {
+background: url(../img/bg_right.jpg) top right repeat-y;
+}
+
+#logo {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+#user {
+position: absolute;
+top: 50px;
+left: 30%;
+}
+
+#content {
+position: relative;
+padding-right: 300px;
+}
+
+#sidebar_bg {
+position: fixed;
+right: 0px;
+top: 0px;
+width: 300px;
+height: 100%;
+background: url(../img/sidebar_bg.jpg) top left repeat-y;
+}
+
+#sidebar {
+position: absolute;
+right: 0px;
+top: 0px;
+width: 300px;
+background: url(../img/sidebar_top.jpg) top left no-repeat;
+min-height: 375px;
+}
+
+	#hideSidebar {
+	border-bottom: 1px dashed #336699;
+	cursor: pointer;
+	position: absolute;
+	top: 8px;
+	right: 20px;
+	-moz-text-shadow: 1px 1px 0px #b5cee0;
+	-webkit-text-shadow: 1px 1px 0px #b5cee0;
+	text-shadow: 1px 1px 0px #b5cee0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#b5cee0')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#b5cee0');
+	line-height: 1;
+	}
+	
+	#showSidebar {
+	border-bottom: 1px dashed #336699;
+	cursor: pointer;
+	position: absolute;
+	z-index: 10000;
+	top: 8px;
+	right: 40px;
+	display: none;
+	line-height: 1;
+	}
+	
+	#sidebar_content {
+	padding: 20px;
+	margin-top: 80px;
+	}
+	
+		#sidebar_content input[type="text"] {
+		width: 238px;
+		height: 30px;
+		padding: 0px;
+		border: 0px;
+		background: #ffffff url(../img/input_bg.png) top left repeat-x;
+		border-left: 1px solid #d4d3d3;
+		border-right: 1px solid #d4d3d3;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 15px;
+		}
+		
+		.sidebar_submit {
+		margin-top: 6px;
+		margin-left: 31px;
+		}
+		
+		.sidebar_adv {
+		margin-top: 40px;
+		}
+		
+			.adv_title {
+			font-size: 12px;
+			}
+
+#menu {
+position: relative;
+margin-top: 91px;
+height: 88px;
+margin-right: 60px;
+background: url(../img/menu_bg.png) top left repeat-x;
+padding-left: 40px;
+}
+
+	#menu a {
+	color: #ffffff;
+	font-size: 18px;
+	-moz-text-shadow: 1px 1px 0px #044272;
+	-webkit-text-shadow: 1px 1px 0px #044272;
+	text-shadow: 1px 1px 0px #044272;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#044272')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#044272');
+	float: left;
+	margin-right: 30px;
+	margin-top: 20px;
+	text-decoration: none;
+	}
+	
+	#menu a:hover {
+	color: #cfe9fa;
+	}
+	
+		#menu #profile {
+		position: absolute;
+		right: 0px;
+		}
+	
+			#menu #profile a {
+			margin-right: 10px;
+			}
+
+#menu_right {
+position: absolute;
+top: 0px;
+right: -40px;
+}
+
+#menu_line {
+position: absolute;
+top: 9px;
+left: -30px;
+}
+
+#content_container {
+padding-left: 40px;
+padding-right: 40px;
+margin-top: -12px;
+}
+
+.footnote {
+font-size: 16px;
+}
+
+#main_mercedes {
+margin-top: 27px;
+height: 264px;
+background: url(../img/mercedes.png) center top no-repeat;
+margin-left: -40px;
+}
+
+	#main_mercedes p {
+	padding-top: 23px;
+	margin-left: 66%;
+	}
+	
+#main_tablet {
+height: 382px;
+background: url(../img/tablet.jpg) top right no-repeat;
+margin-right: -40px;
+}
+
+	#main_tablet p {
+	padding-top: 103px;
+	margin-right: 66%;
+	}
+	
+#main_down {
+padding-top: 45px;
+}
+	
+#footer {
+position: relative;
+padding: 40px;
+padding-top: 60px;
+font-size: 16px;
+}
+
+	#footer span {
+	color: #666666;
+	}
+	
+#fb {
+position: absolute;
+top: 70px;
+left: 280px;
+}
+
+#vk {
+position: absolute;
+top: 70px;
+left: 320px;
+}
+
+#tw {
+position: absolute;
+top: 70px;
+left: 360px;
+}
+
+#phone {
+position: absolute;
+top: 25px;
+right: 340px;
+}
+
+	#phone span {
+	font-size: 18px;
+	}
+	
+#contacts {
+position: absolute;
+top: 50px;
+right: 340px;
+}
+
+/* моё авто */
+.my_auto_photo {
+float: left;
+width: 220px;
+padding-right: 20px;
+}
+
+.my_auto_info {
+padding-left: 240px;
+}
+
+	.info_title {
+	position: relative;
+	border-bottom: 1px solid #cccccc;
+	}
+	
+	.info_change {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 12px;
+	cursor: pointer;
+	}
+	
+	.info_title_h {
+	position: relative;
+	padding-right: 10px;
+	background-color: white;
+	top: 10px;
+	font-weight: bold;
+	}
+	
+	.info_table {
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	}
+	
+	.info_char {
+	width: 220px;
+	color: #999999;
+	height: 30px;
+	}
+	
+	.balance {
+	width: 220px;
+	}
+	
+		span.red {
+		color: #ff3333;
+		}
+		
+	.last_commands {
+	font-size: 18px;
+	color: #000000;
+	}
+	
+	.command {
+	width: 290px;
+	padding-left: 10px;
+	height: 80px;
+	margin-left: -20px;
+	background: url(../img/command_bg.png) top left repeat-x;
+	}
+	
+	.command_title {
+	position: relative;
+	padding-top: 11px;
+	}
+	
+	.car_number_command {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	font-size: 11px;
+	line-height: 1;
+	background-color: white;
+	border: 1px solid #999999;
+	padding: 1px;
+	padding-bottom: 0px;
+	}
+	
+	.command_info {
+	font-size: 12px;
+	padding-left: 10px;
+	}
+	
+	.command_date {
+	font-size: 12px;
+	color: #666666;
+	padding-left: 10px;
+	}
+	
+/* about */
+.sub_header {
+font-size: 24px;
+text-align: center;
+font-weight: bold;
+padding-top: 20px;
+}
+
+.about_li_left {
+position: relative;
+float: left;
+width: 45%;
+padding-right: 5%;
+margin-top: 60px;
+}
+
+.about_li_right {
+position: relative;
+float: left;
+width: 45%;
+padding-left: 5%;
+margin-top: 60px;
+}
+
+	.about_li_left span, .about_li_right span {
+	position: absolute;
+	top: -85px;
+	left: 0px;
+	font-size: 144px;
+	color: #99ccff;
+	font-weight: bold;
+	}
+	
+	.about_li_right span {
+	left: 10%;
+	}
+	
+/* commands */
+.c_commands_car {
+position: relative;
+float: left;
+width: 50%;
+height: 720px;
+}
+
+.c_commands_title {
+font-size: 24px;
+text-align: center;
+}
+
+	.c_commands_title span {
+	position: relative;
+	top: -2px;
+	border: 1px solid #999999;
+	font-size: 18px;
+	}
+	
+	.c_command_button {
+	position: absolute;
+	width: 164px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 6px;
+	cursor: pointer;
+	}
+	
+	.disabled {
+	background: url(../img/com_button_grey.png) top left no-repeat !important;
+	color: #cccccc !important;
+	cursor: auto !important;
+	}
+	
+	.engine_off {
+	top: 120px;
+	left: 50%;
+	margin-left: -172px;
+	background: url(../img/com_button_blue.png) top left no-repeat;
+	}	
+	
+	.engine_on {
+	top: 120px;
+	left: 50%;
+	margin-left: 8px;
+	background: url(../img/com_button_blue.png) top left no-repeat;
+	}
+	
+	.auto_start {
+	top: 180px;
+	left: 50%;
+	margin-left: -82px;
+	background: url(../img/com_button_red.png) top left no-repeat;
+	}
+	
+	.secure_off {
+	top: 300px;
+	left: 50%;
+	margin-left: -172px;
+	background: url(../img/com_button_blue.png) top left no-repeat;
+	}
+	
+	.secure_on {
+	top: 300px;
+	left: 50%;
+	margin-left: 8px;
+	background: url(../img/com_button_blue.png) top left no-repeat;
+	}
+	
+	.map_search {
+	top: 480px;
+	left: 50%;
+	margin-left: -82px;
+	background: url(../img/com_button_green.png) top left no-repeat;
+	}
+	
+	.service {
+	top: 660px;
+	left: 50%;
+	margin-left: -82px;
+	background: url(../img/com_button_red.png) top left no-repeat;
+	}

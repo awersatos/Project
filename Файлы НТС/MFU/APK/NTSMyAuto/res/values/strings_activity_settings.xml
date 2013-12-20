@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="title_activity_settings">Настройки</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Общие</string>
+    <string name="pref_title_token">Токен</string>
+    <string name="pref_title_login">Пользователь</string>
+    <string name="pref_title_password">Пароль</string>
+    <string name="pref_title_mac">Bluetooth MAC "Чёрного ящика"</string>
+    <string name="pref_title_api">URL веб-сервиса</string>
+</resources>
