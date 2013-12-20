@@ -1,7 +1,0 @@
-VERSION:3 SOURCE_TIMESTAMP:4135BA1A
-NODE:I LEVEL:0 LINE:23 "C:\cvavreval\inc\tiny2313a.h"
-NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\delay.h"
-NODE:F LEVEL:0 LINE:28 "lcd_com(unsigned char p)"
-NODE:F LEVEL:0 LINE:55 "lcd_dat(unsigned char p)"
-NODE:F LEVEL:0 LINE:80 "lcd_init(void)"
-NODE:F LEVEL:0 LINE:92 "main(void)"
