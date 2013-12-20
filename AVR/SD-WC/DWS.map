@@ -1,0 +1,39 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer0                                                        0x0267     512
+NR                                                                0x0467      12
+SPI_buffer                                                        0x0473      64
+_seed                                                             0x04B3       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+LD1                                                               0x0000       1
+LD2                                                               0x0001       1
+LD3                                                               0x0002       1
+DAT1                                                              0x0003       7
+DAT2                                                              0x000A       7
+DAT3                                                              0x0011       7
+DAT4                                                              0x0018       7
+DAT5                                                              0x001F       7
+DAT6                                                              0x0026       7
+DAT7                                                              0x002D       7
+DAT8                                                              0x0034       7
+BREL1                                                             0x003B       7
+BREL2                                                             0x0042       7
+BREL3                                                             0x0049       7
+BREL4                                                             0x0050       7
+BREL5                                                             0x0057       7
+BREL6                                                             0x005E       7
+OP                                                                0x0065       1
+STAT                                                              0x0066     256
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+rx_wr_index0                                                      R3,R4        2
+i                                                                 R5,R6        2
+j                                                                 R8           1
+PGM                                                               R7           1
+x                                                                 R9,R10       2

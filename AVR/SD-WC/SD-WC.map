@@ -1,0 +1,22 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+SPI_buffer                                                        0x01A7      64
+rx_buffer                                                         0x01E7     512
+_seed                                                             0x03E7       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+OP                                                                0x0000       1
+NR                                                                0x0001      12
+COUNT                                                             0x000D       1
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+z                                                                 R5           1
+i                                                                 R6,R7        2
+pktlen                                                            R4           1
+Error                                                             R9           1
+rx_wr_index                                                       R10,R11      2
